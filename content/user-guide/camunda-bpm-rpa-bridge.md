@@ -1,6 +1,6 @@
 ---
 
-title: 'Camunda BPM RPA Bridge'
+title: 'Camunda Platform RPA Bridge'
 weight: 300
 
 menu:
@@ -30,7 +30,7 @@ To execute RPA bots from Camunda you will need:
 * A [UiPath Orchestrator](https://www.uipath.com/product/orchestrator) instance, either
    * On-Premises v2019 or v2020.4 or 
    * Automation Cloud
-* Camunda BPM 7.14 Enterprise Edition or later
+* Camunda Platform 7.14 Enterprise Edition or later
 * Java 8 or later installed on the machine that runs the Camunda RPA bridge
 
 To design a BPMN model that connects to one or more RPA bots through the bridge, the following tools are very helpful (but not required):
@@ -38,7 +38,7 @@ To design a BPMN model that connects to one or more RPA bots through the bridge,
 * Cawemo 1.4 or later (to create and distribute worker catalogs)
 * Camunda Modeler 4.2 or later (to apply the worker catalog to your process model)
 
-# Camunda BPM RPA Bridge configuration
+# Camunda Platform RPA Bridge configuration
 The bridge is configurable through the `application.yml` file that is included in the provided archive.
 Properties marked with a `'*'` are required to be filled before starting the bridge.
 
@@ -370,7 +370,7 @@ When enabled via including `org.camunda.bpm.rpa.enable-telemetry=true` in the [c
 ## General Data
 
 * A generated unique ID for every bridge instance
-* The name of the product (i.e., Camunda BPM RPA Bridge)
+* The name of the product (i.e., Camunda Platform RPA Bridge)
 * The version of the bridge (e.g., 1.0.0)
 * The edition of the product (i.e., enterprise)
 * The customer name, expiry date and enabled features as well as the raw license info

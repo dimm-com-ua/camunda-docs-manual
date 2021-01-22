@@ -22,8 +22,8 @@ Please note that Patch Level Updates are only provided to enterprise customers, 
 In this guide, a number of variables are used to denote common path names and constants:
 
 * `$DATABASE`: the target database platform, e.g. DB2, MySQL, etc.
-* `$DISTRIBUTION_PATH`: the path of the downloaded pre-packaged Camunda BPM distribution, e.g. `camunda-bpm-tomcat-$PLATFORM_VERSION.zip` or `camunda-bpm-tomcat-$PLATFORM_VERSION.tar.gz` for Tomcat etc.
-* `$PLATFORM_VERSION`: the version of the Camunda BPM platform you want to install, e.g. `7.1.0`.
+* `$DISTRIBUTION_PATH`: the path of the downloaded pre-packaged Camunda Platform distribution, e.g. `camunda-bpm-tomcat-$PLATFORM_VERSION.zip` or `camunda-bpm-tomcat-$PLATFORM_VERSION.tar.gz` for Tomcat etc.
+* `$PLATFORM_VERSION`: the version of the Camunda Platform you want to install, e.g. `7.1.0`.
 
 {{< /note >}}
 
@@ -682,7 +682,7 @@ This section is applicable if you installed the [Full Distribution]({{< ref "/in
 Please note that the following procedure may differ for cluster scenarios. Contact our [support team](https://app.camunda.com/jira/browse/SUPPORT) if you need further assistance.
 
 * Shut down the server
-* Exchange Camunda BPM libraries, tools and webapps (EAR, RAR, Subsystem (JBoss), Shared Libs) - essentially, follow the [installation guide]({{< ref "/installation/full/_index.md" >}}) for your server.
+* Exchange Camunda Platform libraries, tools and webapps (EAR, RAR, Subsystem (JBoss), Shared Libs) - essentially, follow the [installation guide]({{< ref "/installation/full/_index.md" >}}) for your server.
 * Restart the server
 
 # Application With Embedded Process Engine
